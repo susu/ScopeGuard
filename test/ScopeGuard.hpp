@@ -99,7 +99,7 @@ class TestScopeGuard : public CxxTest::TestSuite
         &resource,
         &DummyResource::free );
     
-    // blabla....no we using the resource, but no exception
+    // blabla....now we using the resource, but no exception
     // ... still using
     // ... still using
     // done, and no exception!
